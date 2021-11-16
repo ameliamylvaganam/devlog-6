@@ -1,1 +1,85 @@
+:root {
+  --bg:  hsl(50, 100%, 70%);
+  --accent: hsl(200, 100%, 20%);
+  --main2:  hsl(20, 60%, 10%);
+}
 
+/* MAIN PG */
+body {
+  background-color: var(--bg);
+  font-family: "Helvetica", sans-serif;
+  margin: 30px;}
+
+h2{
+  color: var(--accent);
+  text-align: center;
+}
+
+/* post */
+#date{
+  color: var(--accent);
+  font-size: 16px;
+  font-weight: bold;
+}
+#text{
+  color: var(--main2);
+  font-size: 14px;}
+
+/* img */
+img{
+  width: 200px;
+  height: 150px;}
+
+/* LINKS */
+/* unvisited link */
+a:link {
+  color: #ffffff;
+  text-decoration: none;}
+/* visited link */
+a:visited {
+  color: #ffffff;
+  text-decoration: none;}
+/* mouse over link */
+a:hover {
+  color: hsl(200, 70%, 75%);
+  text-decoration: none;
+/* selected link */
+a:active {
+  color: #ffffff;
+  text-decoration: none;}
+
+/* MARQUEE */
+.marquee span:hover{
+    animation-play-state: paused;
+    cursor: pointer;}
+.marquee {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: #ffffff;
+
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    line-height: 70px;
+    z-index: 99999999;}
+.marquee span {
+    display: inline-block;
+    will-change: transform;
+    animation: marquee 30s linear infinite;}
+@keyframes marquee {
+    0% {transform: translate(0%, 0);}
+    100% {transform: translate(-30%, 0);}}
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;}
