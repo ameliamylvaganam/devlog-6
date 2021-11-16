@@ -29,10 +29,21 @@ let data = {
         {
             "date": "nov 15 6pm",
             "text": "i just finished the visual parts of the game! still have to add in sound at different events but everything else is done. looking at it, it's kinda ugly I'll be honest. I think I could have spent more time on the visual consistency/cohesivity, and i still could but I probably wont. it was one of my goals that i didn't do that well on, but I also don't think I'll revisit this game past submitting it today so I don't feel much desire to spend time on making it super pretty. (next time i guess)<br><br>\
-            in regards to my other goal, the game becoming more challenging as it's played, i actually decided against this because the game is so simple that if it starts slow it's honestly just pretty boring. so it's starting fast and if I were to increase this it would devolve into impossible and stressful very quickly. i think it's fun and frustrating and i want to play it until i win each time! so i think the difficulty will just stay static. I don't feel the need for it to have a lot of replay value at this point."
+            in regards to my other goal, the game becoming more challenging as it's played, i actually decided against this because the game is so simple that if it starts slow it's honestly just pretty boring. so it's starting fast and if I were to increase this it would devolve into impossible and stressful very quickly. i think it's (sorta) fun and frustrating and i want to play it until i win each time! so i think the difficulty will just stay static. I don't feel the need for it to have a lot of replay value at this point."
         },
-
-
+        {
+            "date": "nov 15 6:30pm",
+            "text": "just added sound fx when the player dies👍🏼"
+        },
+        {
+            "date": "reflection ...",
+            "text": "by the end, my goals had changed to become much more practical to the time limit/scope of the assignment (that i had placed on myself by starting late and not caring about it being amazing)<br><br>\
+            i made a working frogger-type game! conceptually, i achieved what I had set out to do, but less so visually.<br><br>\
+            the way objects interact with each other was what i wanted it to be and it took me a second to figure that out. i feel like i'm well-versed in that now.<br><br>\
+            what went wrong is that the game is kinda ugly but it's okay I've made my peace with it<br><br>\
+            I wish that at the start i had known that it didn't have to be perfect because I probably spent more time worrying about how I was going to do things than actually doing them. and like it's ugly and simple but it does work and is playable so that's a feat in itself<br><br>\
+            from this, i learned that I give up easily when I'm not very invested in the project which sounds kinda messed up but it's true. I worked harder on my last game because I was more excited about the concept I had come up with, so maybe this time I could have spent more time brainstorming ideas instead of just settling on the first one i thought of that would fulfill the requirements."
+        },
 
     ]
 };
